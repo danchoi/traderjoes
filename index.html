@@ -56,7 +56,10 @@
         <h1>Trader Joe's Fearless Flyer</h1>
         <h2>on your Kindle</h2>
         <br/>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p>This is a demonstration Kindle edition of Trader Joe's <a href="http://www.traderjoes.com/fearless-flyer/">Fearless Flyer</a>. It is not an official e-periodical publication by Trader Joe's, but a demonstration generated using the <a href="http://github.com/danchoi/kindlefodder">Kindlefodder</a> open-source project. Screenshots are below. </p>
+        <p>Download the demo ebook issue of the Fearless Flyer and transfer it to your Kindle for your reading pleasure.</p>
+        <p><a href="trader_joes.2012-05-01.mobi" class="btn btn-primary btn-large">Download Demo Issue</a></p>
+        <p>If you want to help us convince Trader Joe's to publish an environmentally-friendly Kindle version of their printed Fearless Flyer, please comment below in the Disqus thread. It can serve as a petition of sorts. </p>
       </div>
 
       <!-- Example row of columns -->
@@ -103,20 +106,29 @@
     <script src="js/bootstrap-carousel.js"></script>
     <script src="js/bootstrap-typeahead.js"></script>
 
-<script type="text/javascript">
-//<![CDATA[
-(function() {
-                var links = document.getElementsByTagName('a');
-                var query = '?';
-                for(var i = 0; i < links.length; i++) {
-                        if(links[i].href.indexOf('#disqus_thread') >= 0) {
-                                query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-                        }
-                }
-                document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/kindlefeeder/get_num_replies.js' + query + '"></' + 'script>');
-        })();
-//]]>
-</script>
+    <script type="text/javascript">
+    //<![CDATA[
+    (function() {
+                    var links = document.getElementsByTagName('a');
+                    var query = '?';
+                    for(var i = 0; i < links.length; i++) {
+                            if(links[i].href.indexOf('#disqus_thread') >= 0) {
+                                    query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+                            }
+                    }
+                    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/kindlefeeder/get_num_replies.js' + query + '"></' + 'script>');
+            })();
+    //]]>
+    </script>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-4028996-6");
+      pageTracker._trackPageview();
+    </script>
 
   </body>
 </html>
